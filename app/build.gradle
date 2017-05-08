@@ -37,4 +37,7 @@ dependencies {
 
     // for gson converter
     compile 'com.squareup.retrofit2:converter-gson:2.2.0'
+
+    // for Picasso(Image downloading and cashing)
+    compile 'com.squareup.picasso:picasso:2.5.2'
 }
