@@ -31,10 +31,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+        PermissionSample.testPermission(this);
+
         ButterKnife.bind(this);
 
         Picasso.with(this).load("https://www.google.co.kr/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png").into(imgOne);
 
+
+        CircularFloatingActionMenu.showCircularFloatingActionMenu(this);
     }
 
     @Override

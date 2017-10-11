@@ -40,4 +40,17 @@ dependencies {
 
     // for Picasso(Image downloading and cashing)
     compile 'com.squareup.picasso:picasso:2.5.2'
+
+    // OKIO
+    compile 'com.squareup.okio:okio:1.13.0'
+
+    // OKHttp
+    compile 'com.squareup.okhttp3:okhttp:3.9.0'
+
+    // tedPermission
+    compile 'gun0912.ted:tedpermission:2.0.3'
+
+    // Circular Floating action menu button
+    // https://github.com/oguzbilgener/CircularFloatingActionMenu
+    compile 'com.oguzdev:CircularFloatingActionMenu:1.0.2'
 }
