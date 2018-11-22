@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
+        // 추가
         PermissionSample.testPermission(this);
 
         ButterKnife.bind(this);
